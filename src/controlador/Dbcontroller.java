@@ -6,7 +6,7 @@ import java.sql.Connection;
 public class Dbcontroller {
     //modificar argumento para pedir una ruta en el futuro
     String ruta = "jdbc:sqlite:database\\asist.db";
-    Connection conexion;
+    private Connection conexion;
 
     public Dbcontroller(){
         try {
