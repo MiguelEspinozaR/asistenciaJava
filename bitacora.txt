@@ -11,4 +11,6 @@ x/3/23 - Después de pasar unas clases de la materia sistemas de información 2 
     de un empleado a la empresa, tras ingresar su id y una contraseña".
     Necesitaré una base de datos. Local, simple y efectiva. la mejor opción me pareció ser SQLite (pero puede que esto cambie en el futuro).
 
-    La db está hecha e implementé JUnit para las pruebas unitarias
+    La db está hecha
+    
+10-05-23 - Después de un par de intentos fallidos, la conexion está hecha

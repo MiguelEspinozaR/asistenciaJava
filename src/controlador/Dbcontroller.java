@@ -1,25 +1,16 @@
 package controlador;
-import java.sql.DriverManager;
-import java.sql.Connection;
-//import java.sql.Driver;
+import java.sql.*;
 
 public class Dbcontroller {
     //modificar argumento para pedir una ruta en el futuro
-    String ruta = "jdbc:sqlite:database\\asist.db";
-    private Connection conexion;
+    Connection conexion;
 
     public Dbcontroller(){
         try {
-             conexion = DriverManager.getConnection(ruta);
-             if(conexion.isValid(1)){
-                System.out.println("conectado");
-             } else {
-                System.out.println("error al conectar");
-             }
-
+            conexion = DriverManager.getConnection("jdbc:sqlite:..\\database\\asist.db");
         } catch (Exception e) {
-            
+            // TODO: handle exception
         }
-
     }
+
 }
