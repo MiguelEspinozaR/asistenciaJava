@@ -14,3 +14,4 @@ x/3/23 - Después de pasar unas clases de la materia sistemas de información 2 
     La db está hecha
     
 10-05-23 - Después de un par de intentos fallidos, la conexion está hecha
+11-05-23 - se hizo el modelado de lo que es un personal,

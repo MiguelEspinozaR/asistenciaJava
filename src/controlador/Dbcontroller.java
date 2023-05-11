@@ -3,9 +3,10 @@ import java.sql.*;
 
 public class Dbcontroller {
     //modificar argumento para pedir una ruta en el futuro
-    Connection conexion;
+    private Connection conexion;
 
     public Dbcontroller(){
+        //la conexion a la db se hace al momento de crear el controlador
         try {
             conexion = DriverManager.getConnection("jdbc:sqlite:..\\database\\asist.db");
         } catch (Exception e) {
@@ -13,4 +14,12 @@ public class Dbcontroller {
         }
     }
 
+    public void registrarPersonal(){
+
+        
+    }
+
+    public Connection getConexion(){
+        return conexion;
+    }
 }
