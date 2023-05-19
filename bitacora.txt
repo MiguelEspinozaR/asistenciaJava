@@ -18,4 +18,9 @@ x/3/23 - Después de pasar unas clases de la materia sistemas de información 2 
 12-05-23 - se trabaja en el metodo de registrar personal
 18-05-23 - vencemos la procrastinacion xD.
     se arregló la conexion con la db.
+    problemas al registrar personal >.<
+
+19-05-21 - voy a pivotar un poco porque siento que necesito aprender un poco más de  git y github.
+    asi que empezaré un par de proyectos nuevos y cortitos que encontré en otro repositorio
+
     
